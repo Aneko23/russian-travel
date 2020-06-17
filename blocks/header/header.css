@@ -1,0 +1,41 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang-link/header__lang-link.css);
+
+.header {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    padding: 28px 48px 0;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header_list {
+    list-style: none;
+    display: flex;
+    padding-top: 18px;
+    margin: 0;
+}
+
+.root {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 28px 24px 0;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 16px 16px 0;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__list {
+        padding-top: 14px;
+    }
+}
