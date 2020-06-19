@@ -4,6 +4,12 @@
 .place__website {
     list-style: none;
     padding: 0;
-    align-self: flex-end;
-    margin: 0 0 8px;
+    align-self: end;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
 }

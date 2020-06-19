@@ -15,3 +15,27 @@
 .place:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: repeat(2, 440px);
+        grid-gap: 32px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: repeat(2, 340px);
+        grid-gap: 28px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: repeat(1, 320px);
+        grid-gap: 32px;
+        
+    }
+}

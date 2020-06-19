@@ -3,6 +3,19 @@
     font-size: 18px;
     line-height: 30px;
     color:white;
-    margin: 0 0 24px;
+    margin: 0 auto 24px;
     text-align: start;
+}
+
+.place__paragraph:nth-child(n+2) {
+ margin: 0 auto 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
