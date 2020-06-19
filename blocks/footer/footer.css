@@ -1,0 +1,14 @@
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        grid-template-columns: repeat(1, max-content);
+        justify-content: start;
+    }
+}

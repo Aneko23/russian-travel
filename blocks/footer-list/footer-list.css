@@ -1,0 +1,26 @@
+@import url(./__link/footer-list__link.css);
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0 48px 24px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer-list {
+        margin: 0 24px 24px;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-list {
+        grid-template-columns: repeat(1, max-content);
+        grid-template-rows: repeat(5,max-content);
+        justify-content: start;
+        margin: 0 16px 48px;
+    }
+}
