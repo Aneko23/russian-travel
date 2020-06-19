@@ -1,1 +1,6 @@
 @import url(./place/place.css);
+
+
+.places {
+    margin: 92px auto 92px;
+}
