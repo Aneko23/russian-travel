@@ -1,6 +1,5 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__backrgound.css);
 @import url(./__link/cover__link.css);
 
 .cover {
@@ -10,7 +9,7 @@
     background-size: 1184px 740px;
     background-repeat: no-repeat;
     grid-template-rows: min-content;
-    width: 100%;
+    max-width: 1184px;
     height: 740px;
     justify-items: center;
     margin: 0 auto 92px;
