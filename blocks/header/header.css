@@ -1,6 +1,14 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 
+.header__lang-link_ru:focus {
+    border-bottom: 1px solid white;
+}
+
+.header__lang-link_en:focus {
+    border-bottom: 1px solid white;
+}
+
 .header {
     max-width: 1280px;
     display: grid;
@@ -10,7 +18,7 @@
     margin: 0;
 }
 
-.header_list {
+.header__list {
     list-style: none;
     display: flex;
     padding-top: 18px;

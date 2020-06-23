@@ -1,11 +1,20 @@
-@import url(./_url-heading/place__website_url-heading.css);
-@import url(./_link/place__website_link.css);
-
 .place__website {
     list-style: none;
     padding: 0;
     align-self: end;
-    margin: 0;
+    margin: 0 0 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        margin: 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        margin: 0 0 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {

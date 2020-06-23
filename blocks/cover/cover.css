@@ -1,11 +1,16 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__background/cover__backrgound.css);
+@import url(./__link/cover__link.css);
 
 .cover {
     display: grid;
+    background-image: url(../../images/__background.png);
+    background-position: center;
+    background-size: 1184px 740px;
+    background-repeat: no-repeat;
     grid-template-rows: min-content;
-    width: 1184px;
+    width: 100%;
     height: 740px;
     justify-items: center;
     margin: 0 auto 92px;
@@ -13,14 +18,12 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 1024px;
         height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-        width: 768px;
         height: 480px;
         margin: 0 auto 88px;
     }
@@ -28,7 +31,6 @@
 
 @media screen and (max-width: 320px) {
     .cover {
-        width: 320px;
         height: 200px;
         margin: 0 auto 64px;
     }
