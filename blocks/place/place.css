@@ -7,13 +7,13 @@
 @import url(./__url-heading/place__url-heading.css);
 
 .place {
+    max-width: 984px;
     display: grid;
-    grid-template-columns: repeat(2, 460px);
+    grid-template-columns: 460px 1fr;
     grid-template-rows: repeat(2, min-content);
     justify-content: center;
-    justify-items: start;
     grid-gap: 40px;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
 }
 
 .place:last-child {
@@ -22,7 +22,8 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: repeat(2, 440px);
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
         grid-gap: 32px;
 
     }
@@ -30,7 +31,8 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, 340px);
+        max-width: 720px;
+        grid-template-columns: 340px 1fr;
         grid-gap: 28px;
         
     }
