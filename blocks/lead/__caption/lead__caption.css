@@ -11,6 +11,12 @@
     justify-self: start;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin: 8px 28px 0; 
+    }
+}
+
 @media screen and (max-width: 768px) {
     .lead__caption {
         margin: 8px 24px 0; 

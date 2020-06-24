@@ -6,12 +6,12 @@
     max-width: 690px;
     display: grid;
     grid-template-rows: repeat(3, min-content);
-    margin: 92px 148px 0;
+    margin: 92px 100px 0;
 }
 
 @media screen and (max-width: 1150px) {
     .intro {
-        margin: 92px 75px 0;
+        margin: 92px 48px 0;
     }
 }
 
