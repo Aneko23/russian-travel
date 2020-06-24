@@ -3,14 +3,16 @@
 @import url(./__link/footer__link.css);
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
+    max-width: 1184px;
+    display: flex;
+    margin: 0 auto 24px;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-widht: 400px) {
     .footer {
-        grid-template-columns: repeat(1, max-content);
-        justify-content: start;
+        max-width: 186px;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
