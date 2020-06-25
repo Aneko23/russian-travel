@@ -2,11 +2,7 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__list/header__list.css);
 
-.header__lang-link_ru:focus {
-    border-bottom: 1px solid white;
-}
-
-.header__lang-link_en:focus {
+.header__lang-link_active:focus {
     border-bottom: 1px solid white;
 }
 

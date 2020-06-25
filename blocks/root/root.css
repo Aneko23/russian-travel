@@ -1,7 +1,7 @@
 .root {
     max-width: 1184px;
     background-color: #2A2C2F;
-    font-family: "Inter", serif, Arial;
+    font-family: "Inter", Arial, sans-serif;
     margin: 0 auto 0;
     padding: 0;
     justify-items: center;
