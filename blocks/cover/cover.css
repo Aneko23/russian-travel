@@ -6,7 +6,7 @@
     display: grid;
     background-image: url(../../images/__background.png);
     background-position: center;
-    background-size: 1184px 740px;
+    background-size: cover;
     background-repeat: no-repeat;
     grid-template-rows: min-content;
     max-width: 1184px;
@@ -29,10 +29,16 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .cover {
+        height: 350px;
+        margin: 0 auto 64px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .cover {
         height: 200px;
-        margin: 0 auto 64px;
     }
 }
 

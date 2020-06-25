@@ -3,6 +3,7 @@
     height: 740px;
     width: 100%;
     background: rgb(42, 44, 47, 0.3);
+    margin: 0 auto 0;
 }
 
  .cover__link:hover {
@@ -10,21 +11,25 @@
     }
 
 @media screen and (max-width: 1024px) {
-    .cover__link {
-            height: 640px;
+        .cover__link {
+                height: 640px;
+            }
         }
-    }
-    
+        
 @media screen and (max-width: 768px) {
-    .cover__link {
-            height: 480px;
-            margin: 0 auto 88px;
+        .cover__link {
+                height: 480px;
+            }
         }
-    }
-    
- @media screen and (max-width: 320px) {
-    .cover__link {
-            height: 200px;
-            margin: 0 auto 64px;
+        
+ @media screen and (max-width: 600px) {
+            .cover__link {
+                height: 350px;
+            }
         }
-    }
+        
+@media screen and (max-width: 400px) {
+            .cover__link {
+                height: 200px;
+            }
+        }
